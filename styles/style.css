@@ -3,18 +3,60 @@
     padding: 0;
 }
 
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+.roboto-font{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn{
+    background-color: #30B868;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    height: 43px;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 24px;
+    cursor: pointer;
+}
+
+.nav-container{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 16px 32px;
+    background-color: #ffffff;
+}
+
 .nav-menu{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .primary-nav ul{
     list-style: none;
     display: flex;
+    align-items: center;
+    
 }
 
 .primary-nav ul li a{
     text-decoration: none;
     display: block;
     margin-left: 32px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
 }
