@@ -1,7 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 
 
 .inter-font{
@@ -15,10 +17,10 @@
   font-optical-sizing: auto;
 }
 
-body{
-    max-width: 1200px;
+/* body{
+    max-width: 1600px;
     margin: 0 auto;
-}
+} */
 
 .btn{
     background-color: #30B868;
@@ -59,4 +61,39 @@ body{
     color: #000000;
     font-weight: 500;
     font-size: 16px;
+}
+
+.hero {
+    background-image: url('../assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0 120px;
+    text-align: center;
+}
+
+.hero-container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.pill {
+    display: inline-flex;
+    align-items: center;
+    background-color: #fff;
+    color: #30B868;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.pill .dot {
+    height: 8px;
+    width: 8px;
+    background-color: #4A9D78;
+    border-radius: 50%;
+    margin-right: 8px;
 }
