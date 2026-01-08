@@ -97,3 +97,42 @@
     border-radius: 50%;
     margin-right: 8px;
 }
+
+.white-text{
+    columns: #ffffff;
+    font-weight: 900;
+    font-size: 48px;
+    
+}
+
+.green-text{
+    color: #30B868;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-description{
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    line-height: 24px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-buttons a{
+    text-decoration: none;
+}
+
+.btn-outline {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 14px 28px;
+    font-size: 16px;
+    margin-left: 16px;
+}
