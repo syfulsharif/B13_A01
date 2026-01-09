@@ -172,3 +172,30 @@
     gap: 20px;
     /* flex-wrap: wrap; */
 }
+
+.card {
+    background: #FAFAFA;
+    border: 1px solid #eee;
+    padding: 32px 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.icon-circle {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px;
+}
+
+.icon-bg-red {
+    background-color: #F95555;
+}
+
+.card .icon-bg-red img {
+    width: 32px;
+    height: auto;
+}
