@@ -6,15 +6,15 @@
 
 
 
-.inter-font{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
 
-.roboto-font{
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
+.roboto-font {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
 }
 
 /* body{
@@ -22,7 +22,7 @@
     margin: 0 auto;
 } */
 
-.btn{
+.btn {
     background-color: #30B868;
     color: #ffffff;
     font-size: 16px;
@@ -34,27 +34,27 @@
     cursor: pointer;
 }
 
-.nav-container{
+.nav-container {
     margin-top: 16px;
     margin-bottom: 16px;
     padding: 16px 32px;
     background-color: #ffffff;
 }
 
-.nav-menu{
+.nav-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.primary-nav ul{
+.primary-nav ul {
     list-style: none;
     display: flex;
     align-items: center;
-    
+
 }
 
-.primary-nav ul li a{
+.primary-nav ul li a {
     text-decoration: none;
     display: block;
     margin-left: 32px;
@@ -72,7 +72,7 @@
     text-align: center;
 }
 
-.hero-container{
+.hero-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
@@ -98,20 +98,20 @@
     margin-right: 8px;
 }
 
-.white-text{
+.white-text {
     columns: #ffffff;
     font-weight: 900;
     font-size: 48px;
-    
+
 }
 
-.green-text{
+.green-text {
     color: #30B868;
     font-size: 48px;
     font-weight: 900;
 }
 
-.hero-description{
+.hero-description {
     font-size: 18px;
     margin-top: 16px;
     margin-bottom: 32px;
@@ -120,11 +120,11 @@
 
 .hero-buttons {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
-.hero-buttons a{
+.hero-buttons a {
     text-decoration: none;
 }
 
@@ -142,8 +142,8 @@
     background-color: #fff;
 }
 
-.notes-container{
-    max-width: 1000px;
+.notes-container {
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -166,7 +166,7 @@
     font-size: 16px;
 }
 
-.cards{
+.cards {
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -198,4 +198,70 @@
 .card .icon-bg-red img {
     width: 32px;
     height: auto;
+}
+
+.card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #001931;
+}
+
+.card p {
+    font-size: 14px;
+    color: #627382;
+    line-height: 1.5;
+}
+
+/* Second Brain Section Styles */
+.second-brain-section {
+    padding: 100px 0;
+    background-color: #FAFAFA;
+}
+
+.second-brain-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.split-layout {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.second-brain-title {
+    font-size: 12px;
+    font-weight: 500;
+    color: #4A9D78;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.brain-content h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 24px;
+    line-height: 1.2;
+}
+
+.description {
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.feature-list li {
+    list-style:none;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: #001931;
+    font-weight: 500;
 }
